@@ -1,4 +1,3 @@
-// Import chessboard.js and chess.js libraries
 let board = null;
 const game = new Chess();
 const stockfish = new Worker("https://raw.githubusercontent.com/nmrugg/stockfish.js/main/src/stockfish.asm.js");
